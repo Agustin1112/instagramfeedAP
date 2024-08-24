@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Estilos -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Oleo+Script" rel="stylesheet">        
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Mi muro</title>
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <nav class="navbar fixed-top navbar-light bg-light">
+        <span class="navbar-brand mb-0 ml-5 h1"><i class="fab fa-instagram"></i> Instagram</span>
+        <form class="form-inline">
+            <button data-toggle="modal" data-target="#exampleModal" class="btn btn-success" type="button">Crear un nuevo post</button>
+            <div class="btn-group">
+                <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i class="fas fa-cog"></i>
+                </button>
+                <div class="dropdown-menu dropdown-menu-right">
+                    <a class="dropdown-item" href="#">Acción</a>
+                    <a class="dropdown-item" href="#">Otra acción</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Cerrar sesión</a>
+                </div>
+            </div>
+        </form>
+    </nav>
+    <!-- Botones cambio de página -->
+    <nav aria-label="Page navigation example" class="margen">
+        <ul class="pagination justify-content-center">
+            <li class="page-item"><a class="page-link text-secondary" href="index.html"><i class="fas fa-th"></i></a></li>
+            <li class="page-item"><a class="page-link text-secondary" href="pared.html">■</a></li>
+        </ul>
+    </nav>
+    <!-- Muro -->
+    <div class="card">
+        <div class="card-header">
+            <h4 class="titulo">Escapada</h4>
+            <button type="button" class="btn btn-link"></button>
+        </div>
+        <img src="escapada.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">23 Me gusta</h5>
+            <p class="card-text">Viajar te deja sin palabras y después te convierte en un narrador de historias.</p>
+            <button type="button" class="btn btn-light btn-sm">
+                <i class="far fa-heart"></i>
+            </button>
+            <input type="text" class="form-control comentario" id="recipient-name" value="Escriba un comentario...">
+            <button type="button" class="btn btn-light btn-sm">
+                <i class="fas fa-ellipsis-v"></i>
+            </button>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header">
+            <h4 class="titulo">Paseo Gastronómico</h4>
+            <button type="button" class="btn btn-link"></button>
+        </div>
+        <img src="paseogastronomico.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">20 Me Gusta</h5>
+            <p class="card-text">El turismo gastronómico es una oportunidad para comprar alimentos y productos que no se pueden conseguir en otros sitios. Las experiencias gastronómicas únicas son uno de los principales ganchos para la cultura gastronómica de un pueblo o una ciudad porque, como podrías suponer, los tours gastronómicos son la mejor oportunidad para probar los platos típicos de la zona.</p>
+            <button type="button" class="btn btn-light btn-sm">
+                <i class="far fa-heart"></i>
+            </button>
+            <input type="text" class="form-control comentario" id="recipient-name" value="Escriba un comentario...">
+            <button type="button" class="btn btn-light btn-sm">
+                <i class="fas fa-ellipsis-v"></i>
+            </button>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header">
+            <h4 class="titulo">Determinación!</h4>
+            <button type="button" class="btn btn-link"></button>
+        </div>
+        <img src="determinacion.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">115 Me Gusta</h5>
+            <p class="card-text">Un hombre mayor desafía las expectativas relacionadas con la edad al participar en un intenso ejercicio de entrenamiento de fuerza. Su expresión concentrada y su postura decidida mientras levanta pesas pesadas son un poderoso testimonio de su compromiso de mantener un estilo de vida activo y saludable.</p>
+            <button type="button" class="btn btn-light btn-sm">
+                <i class="far fa-heart"></i>
+            </button>
+            <input type="text" class="form-control comentario" id="recipient-name" value="Escriba un comentario...">
+            <button type="button" class="btn btn-light btn-sm">
+                <i class="fas fa-ellipsis-v"></i>
+            </button>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header">
+            <h4 class="titulo">Celebración alegre, muchas historias!</h4>
+            <button type="button" class="btn btn-link"></button>
+        </div>
+        <img src="celebracionalegre.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">30 Me Gusta</h5>
+            <p class="card-text">En esta vibrante fotografía, se capta a un grupo diverso de adultos jóvenes en medio de una alegre celebración. El cálido resplandor de las luces de cadena ilumina sus rostros sonrientes, lo que refleja una sensación de unidad y felicidad.</p>
+            <button type="button" class="btn btn-light btn-sm">
+                <i class="far fa-heart"></i>
+            </button>
+            <input type="text" class="form-control comentario" id="recipient-name" value="Escriba un comentario...">
+            <button type="button" class="btn btn-light btn-sm">
+                <i class="fas fa-ellipsis-v"></i>
+            </button>
+        </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="form-group">
+                        <textarea class="form-control" id="message-text"></textarea>
+                    </div>
+                    <button type="button" class="btn btn-light btn-sm">
+                        <i class="fas fa-camera"></i>
+                    </button>
+                    <button type="button" class="btn btn-light btn-sm">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </button>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-success">Publicar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Funcionalidad JavaScript -->
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
+
